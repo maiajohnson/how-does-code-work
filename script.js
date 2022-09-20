@@ -70,6 +70,7 @@ for (let person of myBirthdayDate.attendees) {
 // this loops through the array and pulls up each group of objects
 }
 
+
 // Input: a person
 // Output: boolean (true/false)
 function canTheyDrinkAtBirthday(human) {
@@ -80,6 +81,7 @@ function canTheyDrinkAtBirthday(human) {
         return false;
     }
 }
+
 
 let canLisaDrink = canTheyDrinkAtBirthday(myBirthdayDate.attendees[0]);
 console.log(canLisaDrink);
@@ -109,6 +111,7 @@ function isWordSilly(aWord) {
       // putting the return false here instead of inside the for loop means that it loops through the entire array
       // if it's put inside it'll just return the first value as true or false and then stop
 }
+let sillyWords = ['squeegee', 'barnacle', 'barbecue', 'quagmire', 'bog', 'loofah'];
 
 for (let i = 0; i < sillyWords.length; i++) {
     let oneSillyWord = sillyWords[i];
@@ -116,5 +119,26 @@ for (let i = 0; i < sillyWords.length; i++) {
 }                                               // These two for loops are doing the same thing
 
 for (let oneSillyWord of sillyWords) {
-    
+
 }
+
+
+
+
+let people = [
+
+];
+// variable vs variable.length
+let letters = ['a','b','c','d'];
+console.log('letters', letters.length);
+
+letters.push('e');
+console.log('letters with e', letters.length);
+// .length shows how many items in array, not what items they are
+
+let tile = [];
+// let tile = [{tile: 'n', score: 5}];
+// DO NOT DO THIS. if you want to reassign a value to a variable, just state the variable again, like below
+tile = [{tile: 'n', score: 5}]; // there is no let in front of the variable
+
+
