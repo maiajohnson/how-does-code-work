@@ -142,3 +142,4 @@ let tile = [];
 tile = [{tile: 'n', score: 5}]; // there is no let in front of the variable
 
 
+
